@@ -12,7 +12,7 @@ import xyz.cesarh.persona.persona.model.Pais;
 import xyz.cesarh.persona.persona.service.PaisService;
 
 @RestController
-@RequestMapping("/pais")
+@RequestMapping("/pais/")
 public class PaisRest {
 	
 	@Autowired
